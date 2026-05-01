@@ -1,0 +1,273 @@
+{
+  "facts": [
+    {
+      "title": "The Moon is slowly moving away",
+      "category": "space",
+      "fact": "The Moon drifts about 3.8 centimeters farther from Earth each year.",
+      "image": "https://images.unsplash.com/photo-1446776877081-d282a0f896e2?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "title": "Octopuses have distributed intelligence",
+      "category": "nature",
+      "fact": "A large part of an octopus nervous system is in its arms, helping each arm sense and react.",
+      "image": "https://images.unsplash.com/photo-1545671913-b89ac1b4ac10?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "title": "Ancient concrete still survives",
+      "category": "history",
+      "fact": "Some Roman concrete structures have lasted for nearly two thousand years in harsh sea conditions.",
+      "image": "https://images.unsplash.com/photo-1552832230-c0197dd311b5?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "title": "Your brain edits reality",
+      "category": "mind",
+      "fact": "The brain fills blind spots and smooths motion so your experience feels continuous.",
+      "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "title": "Neutron stars are unbelievably dense",
+      "category": "space",
+      "fact": "A teaspoon of neutron-star material would have a mass of billions of tons on Earth.",
+      "image": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "title": "Trees can share signals underground",
+      "category": "nature",
+      "fact": "Many forests use root and fungal networks to exchange chemical signals and nutrients.",
+      "image": "https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=900&q=80"
+    }
+  ],
+  "factImages": [
+    {
+      "title": "Earth has a hidden inner core",
+      "category": "space",
+      "fact": "Earth's solid inner core sits inside a liquid outer core, helping power the planet's magnetic field.",
+      "image": "https://images.unsplash.com/photo-1614728263952-84ea256f9679?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "title": "The Milky Way is on the move",
+      "category": "space",
+      "fact": "Our galaxy is traveling through space and will eventually merge with the Andromeda galaxy.",
+      "image": "https://images.unsplash.com/photo-1465101162946-4377e57745c3?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "title": "Honey never truly expires",
+      "category": "nature",
+      "fact": "Properly sealed honey can remain edible for thousands of years because of its low moisture and acidity.",
+      "image": "https://images.unsplash.com/photo-1587049352851-8d4e89133924?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "title": "Lightning is hotter than the Sun's surface",
+      "category": "nature",
+      "fact": "A lightning bolt can heat the surrounding air to temperatures far above the Sun's visible surface.",
+      "image": "https://images.unsplash.com/photo-1500674425229-f692875b0ab7?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "title": "The pyramids were once bright white",
+      "category": "history",
+      "fact": "The Great Pyramid was originally covered in polished limestone casing stones that reflected sunlight.",
+      "image": "https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "title": "The first computer bug was literal",
+      "category": "history",
+      "fact": "Engineers once recorded an actual moth found inside a computer relay as a bug in the system.",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "title": "Memories change when recalled",
+      "category": "mind",
+      "fact": "Every time a memory is remembered, the brain can slightly rewrite or reshape it.",
+      "image": "https://images.unsplash.com/photo-1507413245164-6160d8298b31?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "title": "Your brain predicts before you notice",
+      "category": "mind",
+      "fact": "The brain constantly predicts incoming information, helping you react quickly to the world.",
+      "image": "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "title": "Black holes bend light",
+      "category": "space",
+      "fact": "A black hole's gravity is so strong that it can curve the path of light around it.",
+      "image": "https://images.unsplash.com/photo-1502134249126-9f3755a50d78?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "title": "Mars has the tallest volcano",
+      "category": "space",
+      "fact": "Olympus Mons on Mars is the tallest known volcano in the solar system.",
+      "image": "https://images.unsplash.com/photo-1614726365952-510103b1bbb4?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "title": "Some plants can move quickly",
+      "category": "nature",
+      "fact": "The Venus flytrap snaps shut when tiny trigger hairs are touched twice.",
+      "image": "https://images.unsplash.com/photo-1520412099551-62b6bafeb5bb?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "title": "The ocean is mostly unexplored",
+      "category": "nature",
+      "fact": "Much of Earth's deep ocean remains unmapped and unseen by humans.",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "title": "Ancient libraries shaped civilizations",
+      "category": "history",
+      "fact": "Libraries preserved knowledge, maps, astronomy, medicine, and laws across generations.",
+      "image": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "title": "Stonehenge tracks the Sun",
+      "category": "history",
+      "fact": "Stonehenge aligns with sunrise and sunset positions during solstices.",
+      "image": "https://images.unsplash.com/photo-1569879824961-770302b78f80?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "title": "Dreams can train emotions",
+      "category": "mind",
+      "fact": "Dreaming may help the brain process memories, stress, and emotional experiences.",
+      "image": "https://images.unsplash.com/photo-1495195129352-aeb325a55b65?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "title": "Attention can hide obvious things",
+      "category": "mind",
+      "fact": "When focus is narrow, people can miss large changes happening in plain sight.",
+      "image": "https://images.unsplash.com/photo-1494172961521-33799ddd43a5?auto=format&fit=crop&w=900&q=80"
+    }
+  ],
+  "mysteryTopics": [
+    {
+      "title": "The Voynich Manuscript",
+      "description": "A mysterious illustrated book written in an undeciphered script.",
+      "image": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "title": "The Wow! Signal",
+      "description": "A powerful radio signal from space that still fuels alien-contact theories.",
+      "image": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "title": "Lost Civilizations",
+      "description": "Ancient cities, missing records, and clues hidden in ruins.",
+      "image": "https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?auto=format&fit=crop&w=900&q=80"
+    },
+    {
+      "title": "Mind & Consciousness",
+      "description": "Dreams, awareness, memory, and the strange machinery of thought.",
+      "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?auto=format&fit=crop&w=900&q=80"
+    }
+  ],
+  "videos": [
+    {
+      "title": "Sample Mystery Video",
+      "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    },
+    {
+      "title": "Sample Facts Video",
+      "url": "https://www.youtube.com/watch?v=ysz5S6PUM-U"
+    },
+    {
+      "title": "Strange Facts Episode",
+      "url": "https://www.youtube.com/watch?v=jNQXAC9IVRw"
+    },
+    {
+      "title": "Mystery Topic Deep Dive",
+      "url": "https://www.youtube.com/watch?v=aqz-KE-bpKQ"
+    },
+    {
+      "title": "Binaural Beats Preview",
+      "url": "https://www.youtube.com/watch?v=ScMzIvxBSi4"
+    },
+    {
+      "title": "Mind Facts Explained",
+      "url": "https://www.youtube.com/watch?v=YE7VzlLtp-4"
+    }
+  ],
+  "shorts": [
+    {
+      "title": "Sample Short",
+      "url": "https://www.youtube.com/shorts/dQw4w9WgXcQ"
+    },
+    {
+      "title": "Quick Mystery Short",
+      "url": "https://www.youtube.com/shorts/ysz5S6PUM-U"
+    },
+    {
+      "title": "Fast Fact Short",
+      "url": "https://www.youtube.com/shorts/jNQXAC9IVRw"
+    },
+    {
+      "title": "Brain Fact Short",
+      "url": "https://www.youtube.com/shorts/ScMzIvxBSi4"
+    },
+    {
+      "title": "History Short",
+      "url": "https://www.youtube.com/shorts/YE7VzlLtp-4"
+    },
+    {
+      "title": "Space Short",
+      "url": "https://www.youtube.com/shorts/aqz-KE-bpKQ"
+    }
+  ],
+  "products": [
+    {
+      "name": "Bhavishya Malika",
+      "description": "Indian future predicting scripture that describes events that will unfold in the world, COVID 19 was written here.",
+      "image": "https://res.cloudinary.com/dvvbfvvl1/image/upload/v1777653051/1_1_ptvp5y.png",
+      "price": "In Stock",
+      "link": "https://pages.razorpay.com/bmalika"
+    },
+    {
+      "name": "Black Magic Book",
+      "description": "How to perform black magic step by step. I will not be responsible if anything went wrong.Do it at your own risk! ",
+      "image": "https://res.cloudinary.com/dvvbfvvl1/image/upload/v1777653058/2_1_slex16.png",
+      "price": "In Stock",
+      "link": "https://pages.razorpay.com/blackmagicmrinformative"
+    },
+    {
+      "name": "Kamasutra A",
+      "description": "The Kāmasūtra is an ancient Indian text on human relationships, love, and sexuality, written in Sanskrit by Vātsyāyana.",
+      "image": "https://res.cloudinary.com/dvvbfvvl1/image/upload/v1777653053/3_1_m9uoa5.png",
+      "price": "In Stock",
+      "link": "https://pages.razorpay.com/kamasutrabymrinformative"
+    }
+  ],
+  "app": {
+    "downloadLink": "#",
+    "sessions": [
+      {
+        "title": "Deep Focus",
+        "frequency": "10 Hz",
+        "type": "Alpha wave"
+      },
+      {
+        "title": "Sleep Drift",
+        "frequency": "4 Hz",
+        "type": "Theta wave"
+      },
+      {
+        "title": "Calm Reset",
+        "frequency": "8 Hz",
+        "type": "Alpha wave"
+      }
+    ],
+    "features": [
+      {
+        "title": "Focus Modes",
+        "description": "Choose focused listening sessions for study, reading, and deep work."
+      },
+      {
+        "title": "Sleep Sounds",
+        "description": "Use calming frequencies and ambient soundscapes before bedtime."
+      },
+      {
+        "title": "Simple Timer",
+        "description": "Set short breaks, long sessions, or relaxing evening routines."
+      },
+      {
+        "title": "Headphone Ready",
+        "description": "Designed for stereo listening, where binaural effects work best."
+      }
+    ]
+  }
+}

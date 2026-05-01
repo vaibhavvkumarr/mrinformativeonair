@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Binaural Beats App | Mr Informative</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="binaural">
+  <header class="site-header">
+    <a class="brand" href="index.html"><img class="brand-logo" src="assets/logo.jpeg" alt="Mr Informative logo"><span>Mr Informative</span></a>
+    <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="facts.html">Facts</a>
+      <a href="videos.html">Videos</a>
+      <a href="products.html">Products</a>
+      <a href="binaural-beats.html">Binaural Beats</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="app-hero">
+      <div class="app-copy">
+        <p class="eyebrow">Launched by Mr Informative</p>
+        <h1>Binaural Beats App</h1>
+        <p>Create calm focus sessions, sleep routines, meditation soundscapes, and deep work audio with a simple binaural beats player.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#" id="appDownloadLink">Get the App</a>
+          <a class="button ghost" href="videos.html">See Demos</a>
+        </div>
+      </div>
+      <div class="phone-mockup" aria-label="Binaural Beats app preview">
+        <div class="phone-screen">
+          <span class="status-pill">Now Playing</span>
+          <h2 id="sessionTitle">Deep Focus</h2>
+          <div class="beat-orbit">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="frequency-readout">
+            <strong id="frequencyValue">10 Hz</strong>
+            <small>Alpha wave</small>
+          </div>
+          <div class="player-bar"><span></span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature-grid" id="appFeatures"></section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Mr Informative. Use headphones for the best experience.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

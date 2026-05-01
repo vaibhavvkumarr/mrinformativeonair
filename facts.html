@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facts | Mr Informative</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="facts">
+  <header class="site-header">
+    <a class="brand" href="index.html"><img class="brand-logo" src="assets/logo.jpeg" alt="Mr Informative logo"><span>Mr Informative</span></a>
+    <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="facts.html">Facts</a>
+      <a href="videos.html">Videos</a>
+      <a href="products.html">Products</a>
+      <a href="binaural-beats.html">Binaural Beats</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-head">
+      <!-- <p class="eyebrow">Image facts from JSON</p> -->
+      <h1>Facts Gallery</h1>
+      <!-- <p>The cards on this page are loaded from <strong>data/site-data.json</strong>, including every image URL.</p> -->
+    </section>
+
+    <section class="filter-row" aria-label="Fact filters">
+      <!-- <button class="chip active" type="button" data-filter="all">All</button> -->
+    </section>
+
+    <section class="image-grid" id="factsGallery" aria-live="polite"></section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Mr Informative. Facts that make you pause.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

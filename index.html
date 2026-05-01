@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mr Informative | Mystery Facts & Binaural Beats</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-page="home">
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Mr Informative home">
+      <img class="brand-logo" src="assets/logo.jpeg" alt="Mr Informative logo">
+      <span>Mr Informative</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="facts.html">Facts</a>
+      <a href="videos.html">Videos</a>
+      <a href="products.html">Products</a>
+      <a href="binaural-beats.html">Binaural Beats</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero home-hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Facts. Mysteries. Mind tech.</p>
+        <h1>Enter the world of facts, mysteries, and binaural beats.</h1>
+        <p>Mr Informative brings strange facts, hidden history, mystery topics, YouTube videos, and a binaural beats app into one bold red-and-black experience.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="facts.html">Explore Facts</a>
+          <a class="button ghost" href="videos.html">Watch Videos</a>
+        </div>
+        <div class="hero-stats" aria-label="Channel highlights">
+          <div>
+            <strong>100+</strong>
+            <span>Fact ideas</span>
+          </div>
+          <div>
+            <strong>5</strong>
+            <span>Site pages</span>
+          </div>
+          <div>
+            <strong>24/7</strong>
+            <span>Curiosity mode</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-panel modern-panel" aria-label="Featured mystery visual">
+        <img src="https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1100&q=80" alt="Dark city skyline with red evening light">
+        <div class="hero-logo-card">
+          <img src="assets/logo.jpeg" alt="Mr Informative logo">
+          <div>
+            <strong>Mr Informative</strong>
+            <span>New facts every visit</span>
+          </div>
+        </div>
+        <div class="signal-card">
+          <span></span>
+          <p>Mystery topics, Shorts, products, and audio tools.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="home-feature-strip" aria-label="Featured sections">
+      <a href="facts.html">
+        <span>01</span>
+        <strong>Facts Gallery</strong>
+        <small>Images fetched from JSON</small>
+      </a>
+      <a href="videos.html">
+        <span>02</span>
+        <strong>Videos & Shorts</strong>
+        <small>Add your YouTube links</small>
+      </a>
+      <a href="binaural-beats.html">
+        <span>03</span>
+        <strong>Binaural Beats</strong>
+        <small>App launched by Mr Informative</small>
+      </a>
+    </section>
+
+    <section class="section split-section">
+      <div>
+        <p class="eyebrow">Today’s random facts</p>
+        <h2>Fresh facts every visit</h2>
+      </div>
+      <button class="button secondary" id="shuffleFacts" type="button">Shuffle Facts</button>
+    </section>
+
+    <section class="card-grid" id="randomFacts" aria-live="polite"></section>
+
+    <section class="section">
+      <p class="eyebrow">Mystery topics</p>
+      <h2>Start with these deep dives</h2>
+      <div class="topic-grid" id="mysteryTopics"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Mr Informative. Built for curious minds.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
