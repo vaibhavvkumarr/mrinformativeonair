@@ -1,4 +1,8 @@
-const DATA_URL = "data/site-data.json";
+const scriptUrl = document.currentScript?.src || window.location.href;
+const DATA_URLS = [
+  new URL("data/site-data.json", scriptUrl).href,
+  new URL("./data/site-data.json", window.location.href).href
+].filter((url, index, urls) => urls.indexOf(url) === index);
 
 const page = document.body.dataset.page;
 const navToggle = document.querySelector(".nav-toggle");
@@ -21,14 +25,20 @@ if (navToggle && nav) {
 }
 
 async function loadData() {
-  try {
-    const response = await fetch(DATA_URL);
-    if (!response.ok) throw new Error("Could not load JSON data");
-    return await response.json();
-  } catch (error) {
-    console.error(error);
-    return null;
+  const errors = [];
+
+  for (const url of DATA_URLS) {
+    try {
+      const response = await fetch(url);
+      if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
+      return await response.json();
+    } catch (error) {
+      errors.push(`${url}: ${error.message}`);
+    }
   }
+
+  console.error("Could not load JSON data", errors);
+  return null;
 }
 
 function escapeHtml(value) {
@@ -238,9 +248,14 @@ function renderBinaural(data) {
 
 loadData().then((data) => {
   if (!data) {
+    const isFilePage = window.location.protocol === "file:";
+    const message = isFilePage
+      ? "The site data could not be loaded. Run this website from a local server so JSON fetch works."
+      : "The site data could not be loaded. Make sure data/site-data.json is uploaded with the site.";
+
     document.querySelector("main").insertAdjacentHTML(
       "afterbegin",
-      '<div class="empty-state">The site data could not be loaded. Run this website from a local server so JSON fetch works.</div>'
+      `<div class="empty-state">${escapeHtml(message)}</div>`
     );
     return;
   }
